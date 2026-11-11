@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![After Effects](https://img.shields.io/badge/Adobe_After_Effects-2020%E2%80%932026+-9999FF.svg?style=flat-square&logo=adobeaftereffects&logoColor=white)](https://www.adobe.com/products/aftereffects.html)
+[![After Effects](https://img.shields.io/badge/Adobe_After_Effects-2026_(macOS)-9999FF.svg?style=flat-square&logo=adobeaftereffects&logoColor=white)](https://www.adobe.com/products/aftereffects.html)
 [![ExtendScript](https://img.shields.io/badge/Language-ExtendScript_%2F_JSX-F7DF1E.svg?style=flat-square&logo=javascript&logoColor=black)](https://github.com/therealfullmetal55555/millyfx-pro)
 [![CEP 11+](https://img.shields.io/badge/Architecture-CEP_Extension_%2B_ScriptUI-FF0000.svg?style=flat-square)](./CSXS/manifest.xml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-2ea44f.svg?style=flat-square)](./LICENSE)
@@ -172,11 +172,12 @@ millyfx-pro/
 
 ---
 
-## Compatibility
+## Совместимость и тестирование
 
-- **Adobe After Effects:** CC 2020 through 2026+ (v17.0 – v26.x+)
-- **Operating Systems:** macOS (Apple Silicon M1–M4 & Intel), Windows 10/11 (x64)
-- **Host Engine:** ExtendScript (JavaScript 1.5 with Adobe API extensions)
+- **Протестировано:** macOS (Apple Silicon), Adobe After Effects 2026.
+- **Архитектура:** Standalone ScriptUI panel (`MillyFXPro.jsx`) и CEP Extension (HTML5/CSS3 + ExtendScript).
+- **Ограничение:** Сквозное тестирование проводилось в среде After Effects 2026 на macOS. Поддержка Windows и более ранних версий AE (2020–2024) заявлена на уровне стандартных спецификаций CEP/ScriptUI, но на других конфигурациях не верифицировалась.
+- **Демонстрационные материалы:** В репозитории доступен оверлей `assets/overlay.mp4` и пресеты `.ffx`. Для наглядной демонстрации эффектов рекомендуется записать короткий видео-тизер или добавить покадровые сравнения «до / после» на материалах реального клипа.
 
 ---
 
